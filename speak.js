@@ -8,7 +8,7 @@ let myVoice = new p5.Speech(); // new P5.Speech object
 let myRec = new p5.SpeechRec(); // speech recognition object (will prompt for mic access)
 myRec.interimResults = true; // allow partial recognition (faster, less accurate)
 myRec.continuous = true; // do continuous recognition
-
+ 
 let size;
 
 function windowResized() {
