@@ -1,20 +1,3 @@
-/******************************************************************************
-START Glitch hello-app default styles
-
-The styles in this section do some minimal CSS resets, set default fonts and 
-colors, and handle the layout for our footer and "Remix on Glitch" button. If
-you're new to CSS they may seem a little complicated, but you can scroll down
-to this section's matching END comment to see page-specific styles.
-******************************************************************************/
-
-
-/* 
-  The style rules specify elements by type and by attributes such as class and ID
-  Each section indicates an element or elements, then lists the style properties to apply
-  See if you can cross-reference the rules in this file with the elements in index.html
-*/
-
-/* Our default values set as CSS variables */
 :root {
   --color-bg: #b2c9ab;
   --color-text-main: #000000;
@@ -47,7 +30,6 @@ font-family: 'Noto Serif', serif;
     format("opentype");
 }
 
-/* Our remix on glitch button */
 .btn--remix {
   font-family: HK Grotesk;
   padding: 0.75rem 1rem;
@@ -106,9 +88,7 @@ a:not(.btn--remix):visited {
 .divider {
   padding: 0 1rem;
 }
-/******************************************************************************
-END Glitch hello-app default styles
-******************************************************************************/
+
 
 body {
 font-family: 'Noto Serif', serif;
@@ -129,7 +109,6 @@ font-family: 'Noto Serif', serif;
   justify-content: center;
 }
 
-/* Very light scaling for our illustration */
 .title {
   color: #e8ddb5;
 font-family: 'Noto Serif', serif;
@@ -145,7 +124,6 @@ font-family: 'Noto Serif', serif;
   margin: 1rem auto 0;
 }
 
-/* Button - Add it from the README instructions */
 button,
 .button {
   background-color: #666a86;
