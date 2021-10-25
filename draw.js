@@ -16,5 +16,5 @@ function draw() {
     
   }
   
-  colorMode(RGB);
+  colorMode(RGB); 
 }
