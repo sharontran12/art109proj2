@@ -9,7 +9,7 @@ let bgColor = ['#666a86', '#788aa3', '#92b6b1', '#b2c9ab', '#e8ddb5'];
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-}
+} 
 
 let input;
 
